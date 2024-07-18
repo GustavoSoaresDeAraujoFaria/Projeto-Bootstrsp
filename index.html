@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    <div class="texto-header">
+        <div class="container-header">
+            <div class="textos">
+                <div class="left-content">
+                    <h1>Fitness gym</h1>
+                <p>
+                    <h4>A sua loja oficial de suplementos</h4>
+                </p>
+                </div>
+            </div>
+            <div class="barra-de-pesquisa">
+                <div class="center-content">
+                    <textarea name="" id="cacaraio"></textarea>
+                    <a href="#"><img class="logo-lupa" src="https://img.freepik.com/vetores-premium/lupa-icone-de-pesquisa-icone-de-vetor-isolado-no-fundo-branco_773275-1312.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        <section class="secao-abas">
+            <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Lançamentos</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item">
+                <a href="#">Whey 3W sabor Pistache</a>
+                <a href="#">Linha Ramon Dino</a>
+                <a href="#">Termogênico</a>
+            </li>
+        </ul>
+        <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Pré treinos</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item">
+                <a href="#">Hórus</a>
+                <a href="#">Égide</a>
+                <a href="#">Epic</a>
+            </li>
+        </ul>
+        <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Creatinas</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item">
+                <a href="#">Creatina 100g</a>
+                <a href="#">Creatina 150g</a>
+                <a href="#">Creatina 300g</a>
+            </li>
+        </ul>   
+        <button id="botaomaior" class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Kits promocionais</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item">
+                <a href="#">Kit Whey e Creatina</a>
+                <a href="#">Kit Jorlan</a>
+                <a href="#">Kit iniciante + Termogênico</a>
+            </li>
+        </ul>
+        </section>
+    </div>
+    </header>
+    <div class="carousel">
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel sldie carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <a href="#"><img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/9101aa43-734e-4ca7-aeac-c9edf105e328___3fb896081ee39722a9b4bbcdfab35234.jpg" alt=""></a>
+                        <div class="carousel-caption">
+                            <h3>84373</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <a href="#"> <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/ac92667f-c1fa-4aed-bcaa-116d41475448___54eb7bc6734f3560c7648439f978031b.jpg" alt=""></a>
+                        <div class="carousel-caption">
+                            <h3>84373</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <a href="#"><img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/d20948db-1518-4436-93c4-278cd532e3a5___dc2ea467ead17087accc4645a8536a21.jpg" alt=""> </a>
+                        <div class="carousel-caption">
+                            <h3>84373</h3>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    </div>
+    </div>
+    
+    <script src="./lib.js"></script>
+</body>
+</html>
