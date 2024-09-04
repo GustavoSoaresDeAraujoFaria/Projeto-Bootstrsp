@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,16 +6,24 @@
 
 
 
-.carousel-item{
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+.carousel-item {
     max-height: 650px;
     margin: 20px;
 }
 
-.carousel-caption{
+.carousel-caption {
     text-decoration: solid;
 }
 
-header .container-header{
+header .container-header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
@@ -23,36 +31,51 @@ header .container-header{
     max-width: 3000px;
 }
 
-.container-header{
+.container-header {
     padding: 5px;
 }
 
-header h1, h4, #cacaraio{
+header h1,
+.left-content h4,
+#cacaraio {
     color: rgb(175, 11, 11);
     margin: 5px;
 }
 
-header img{
+#cacaraio{
+    font-size: 25px;
+    padding: 3px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#cacaraio:focus{
+    border-color: #007BFF;
+    outline: none; 
+
+}
+
+header img {
     max-height: 250px;
     height: 100%;
     width: 300px;
 
 }
 
-header h1{
+header h1 {
     font-family: "Permanent Marker", cursive;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 48px;
-    }
-
-
-
-header h4{
-    font-family: "Oswald", sans-serif;
-    font-weight:bolder;
 }
 
-.barra-de-pesquisa{
+
+
+header h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+}
+
+.barra-de-pesquisa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +85,7 @@ header h4{
     margin: 1px;
 }
 
-.center-content{
+.center-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,70 +94,415 @@ header h4{
     background-color: rgb(255, 255, 255);
 }
 
-#cacaraio{
+#cacaraio {
     width: 100%;
     height: 45px;
     width: 500px;
     border: 2px none;
-    border-radius: 15px; /* Ajuste o valor conforme necessário */
+    border-radius: 15px;
+    /* Ajuste o valor conforme necessário */
     resize: none;
 }
 
-.logo-lupa{
+.logo-lupa {
     width: 50px;
     margin: 5px;
     padding: 0;
 
 }
 
-.btn{
+.btn {
     width: 350px;
     margin-top: 6px;
 }
 
-.secao-abas{
+.secao-abas {
     display: flex;
     justify-content: space-around;
 }
 
-.secao-abas button{
+.secao-abas button {
     display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
     justify-content: center;
     padding: 2px;
     background-color: rgb(29, 29, 29);
-    border-color:  rgb(29, 29, 29);
+    border-color: rgb(29, 29, 29);
 }
 
-.dropdown-item a{
+.dropdown-item a {
     display: block;
     margin-bottom: 15px;
     text-decoration: none;
     color: black;
 }
 
-.dropdown-item a:hover{
+.dropdown-item a:hover {
     color: rgb(205, 0, 0);
     text-decoration: underline;
 }
 
-.secao-abas{
+.secao-abas {
     background-color: rgb(29, 29, 29);
     padding: 30pxs;
     height: 50px;
 }
 
-#botaomaior{
+#botaomaior {
     width: 370px;
 }
 
-#botaomenor{
+#botaomenor {
     width: 95px;
 }
 
-.carousel{
+.carousel {
     padding: 25px;
     margin-top: 30px;
 }
 
+.cards-dos-produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    margin: 50px;
+}
+
+.card-header{
+    text-align: center;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.0); 
+}
+
+.card-text{
+    text-decoration: line-through;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.card-title b{
+    background-color: rgb(205, 0, 0);
+    color: #fff;
+}
+
+.cards-dos-produtos button{
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+
+}
+
+.cards-dos-produtos button:hover{
+    background-color:rgb(205, 0, 0);
+    color: #fff;
+}
+
+.img-grande{
+
+align-items: center;
+justify-content: center;
+}
+
+footer{
+    padding: 15px;
+    background-color: black;
+}
+
+.Institucional{
+    color: rgb(224, 224, 224);
+}
+
+.Institucional h4{
+    font-weight: 600;
+}
+
+.Institucional h6{
+    font-weight: 500;
+    color: grey;
+    display: block;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+footer img{
+    position: absolute; right: 0;
+    width: 750px;
+    height: 250px;
+}
+
+.img-grande{
+    padding: 90px;
+    margin-left: 30px solid black;
+    background-color: black;
+}
+
+.logos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 2px solid grey;
+}
+
+.logo-cartoes{
+    background-color: black;
+    display: flex;
+}
+
+.logo-cartoes img{
+    margin: 5px;
+}
+
+.logos-e-redes-sociais{
+    background-color: black;
+    display: flex;
+}
+
+.logos-e-redes-sociais img{
+    margin: 5px;
+}
+
+.texto-final{
+    border-top: solid rgb(0, 0, 0) 100px;
+    background-color: black;
+    color: grey;
+    padding: 30px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 912px) and (max-height: 1368px){
+    /*dimensions: surface duo width 540 height 720*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    max-width: 460px;
+    }
+    
+    
+    .texto-header, .secao-abas, .barra-de-pesquisa{
+        max-width: 100%;
+        width: 450px ;
+    }
+    
+    .left-content{
+        width: 370px;
+        display: block;
+    }
+    
+    header h1{
+        display: block;
+        width: 621px;
+    }
+    
+    header h4{
+        display: block;
+        width: 621px;
+    }
+    
+    .barra-de-pesquisa{
+        display: none;
+    }
+    
+    header textarea{
+    display: none;
+    }
+    
+    .secao-abas{
+        margin: 0;
+        display: block;
+        background-color: #fff;
+    }
+    
+    .secao-abas button, #botaomaio, header{
+        position: relative;
+    }
+    .secao-abas button, #botaomaior{
+        width: 420px;
+        padding: 1px;
+        margin-left: 15px;
+    }
+    
+    .container{
+        width: 1200px;
+        padding: 5px;
+    }
+    
+    .carousel{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+    }
+    
+    .carousel button{
+        display: none;
+    
+    }
+    .carousel img{
+        width: 400px;
+        margin-right: 950px;
+    }
+    
+    .carousel h3{
+        display: none;  
+    }
+    
+    .card-text{
+        padding-bottom: 5px;
+    }
+
+    .cards-dos-produtos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cards-dos-produtos .card{
+        margin: 5px;
+        margin-right: 18px;
+        width: 200px;
+    }
+    
+    
+    .cards-dos-produtos button{
+        width: 200px;
+    }
+    
+    .img-grande{
+    display: none;
+    }
+    
+    .logos{
+        border: 1px solid black;
+        display: block;
+    }
+    .secao-abas{
+        margin-bottom: 30px;
+    }
+
+    .logo-cartoes, .logos-e-redes-sociais{
+        padding-bottom: 5px;
+    }
+
+    .logos-e-redes-sociais{
+        display: flex;
+        flex-wrap: wrap;
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 490px) and (max-height: 932px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    max-width: 350px;
+}
+
+.texto-header, .secao-abas, .barra-de-pesquisa{
+    max-width: 100%;
+    width: 340px ;
+}
+
+.left-content{
+    width: 370px;
+    display: block;
+}
+
+header h1{
+    display: block;
+    width: 621px;
+}
+
+header h4{
+    display: block;
+    width: 621px;
+}
+
+.barra-de-pesquisa{
+    display: inline;
+    width: 621px;
+}
+
+.secao-abas button .botaomaior{
+    padding: 5px;
+    width: 85px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header textarea{
+display: none;
+}
+
+.secao-abas{
+    display: block;
+    background-color: #fff;
+}
+
+.secao-abas button, #botaomaior{
+    width: 330px;
+    padding: 1px;
+    margin-left: 5px;
+}
+
+.container{
+    width: 1200px;
+    padding: 0px;
+}
+
+.carousel{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+    width: 320px;
+}
+
+.carousel button{
+    display: none;
+
+}
+.carousel img{
+    width: 350px;
+    margin-right: 950px;
+}
+
+.carousel h3{
+    display: none;  
+}
+
+.cards-dos-produtos{
+    display: block;
+}
+
+.cards-dos-produtos .card{
+    margin: 10px;
+    width: 300px;
+}
+
+.cards-dos-produtos button{
+    width: 300px;
+}
+
+.img-grande{
+display: none;
+}
+
+.logos{
+    border: 1px solid black;
+    display: block;
+}
+.secao-abas{
+    margin-bottom: 30px;
+}
+}
