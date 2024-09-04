@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,104 +8,205 @@
     <link rel="stylesheet" href="./lib.min.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-    <div class="texto-header">
-        <div class="container-header">
-            <div class="textos">
-                <div class="left-content">
-                    <h1>Fitness gym</h1>
-                <p>
-                    <h4>A sua loja oficial de suplementos</h4>
-                </p>
+        <div class="texto-header">
+            <div class="container-header">
+                <div class="textos">
+                    <div class="left-content">
+                        <h1>Fitness gym</h1>
+                        <p>
+                            <h4>A sua loja oficial de suplementos</h4>
+                        </p>
+                    </div>
+                </div>
+                <div class="barra-de-pesquisa">
+                    <div class="center-content">
+                        <textarea name="" id="cacaraio"></textarea>
+                        <a href="#"><img class="logo-lupa"
+                                src="https://img.freepik.com/vetores-premium/lupa-icone-de-pesquisa-icone-de-vetor-isolado-no-fundo-branco_773275-1312.jpg"
+                                alt=""></a>
+                    </div>
                 </div>
             </div>
-            <div class="barra-de-pesquisa">
-                <div class="center-content">
-                    <textarea name="" id="cacaraio"></textarea>
-                    <a href="#"><img class="logo-lupa" src="https://img.freepik.com/vetores-premium/lupa-icone-de-pesquisa-icone-de-vetor-isolado-no-fundo-branco_773275-1312.jpg" alt=""></a>
-                </div>
-            </div>
+            <section class="secao-abas">
+                <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Lançamentos</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#">Whey 3W sabor Pistache</a>
+                        <a href="#">Linha Ramon Dino</a>
+                        <a href="#">Termogênico</a>
+                    </li>
+                </ul>
+                <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Pré treinos</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#">Hórus</a>
+                        <a href="#">Égide</a>
+                        <a href="#">Epic</a>
+                    </li>
+                </ul>
+                <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Creatinas</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#">Creatina 100g</a>
+                        <a href="#">Creatina 150g</a>
+                        <a href="#">Creatina 300g</a>
+                    </li>
+                </ul>
+                <button id="botaomaior" class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Kits
+                    promocionais</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#">Kit Whey e Creatina</a>
+                        <a href="#">Kit Jorlan</a>
+                        <a href="#">Kit iniciante + Termogênico</a>
+                    </li>
+                </ul>
+            </section>
         </div>
-        
-        <section class="secao-abas">
-            <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Lançamentos</button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <a href="#">Whey 3W sabor Pistache</a>
-                <a href="#">Linha Ramon Dino</a>
-                <a href="#">Termogênico</a>
-            </li>
-        </ul>
-        <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Pré treinos</button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <a href="#">Hórus</a>
-                <a href="#">Égide</a>
-                <a href="#">Epic</a>
-            </li>
-        </ul>
-        <button class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Creatinas</button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <a href="#">Creatina 100g</a>
-                <a href="#">Creatina 150g</a>
-                <a href="#">Creatina 300g</a>
-            </li>
-        </ul>   
-        <button id="botaomaior" class="btn btn-danger dropdown toggle" data-bs-toggle="dropdown">Kits promocionais</button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <a href="#">Kit Whey e Creatina</a>
-                <a href="#">Kit Jorlan</a>
-                <a href="#">Kit iniciante + Termogênico</a>
-            </li>
-        </ul>
-        </section>
-    </div>
     </header>
     <div class="carousel">
         <div class="container">
             <div id="carousel-exemplo" class="carousel sldie carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div data-bs-interval="3000" class="carousel-item active">
-                        <a href="#"><img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/9101aa43-734e-4ca7-aeac-c9edf105e328___3fb896081ee39722a9b4bbcdfab35234.jpg" alt=""></a>
+                        <a href="#"><img
+                                src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/9101aa43-734e-4ca7-aeac-c9edf105e328___3fb896081ee39722a9b4bbcdfab35234.jpg"
+                                alt=""></a>
                         <div class="carousel-caption">
                             <h3>84373</h3>
                         </div>
                     </div>
                     <div data-bs-interval="3000" class="carousel-item">
-                        <a href="#"> <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/ac92667f-c1fa-4aed-bcaa-116d41475448___54eb7bc6734f3560c7648439f978031b.jpg" alt=""></a>
+                        <a href="#"> <img
+                                src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/ac92667f-c1fa-4aed-bcaa-116d41475448___54eb7bc6734f3560c7648439f978031b.jpg"
+                                alt=""></a>
                         <div class="carousel-caption">
                             <h3>84373</h3>
                         </div>
                     </div>
                     <div data-bs-interval="3000" class="carousel-item">
-                        <a href="#"><img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/d20948db-1518-4436-93c4-278cd532e3a5___dc2ea467ead17087accc4645a8536a21.jpg" alt=""> </a>
+                        <a href="#"><img
+                                src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/d20948db-1518-4436-93c4-278cd532e3a5___dc2ea467ead17087accc4645a8536a21.jpg"
+                                alt=""> </a>
                         <div class="carousel-caption">
                             <h3>84373</h3>
                         </div>
                     </div>
                 </div>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev"
+                    type="button">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next"
+                    type="button">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"
+                        class="active"></button>
                     <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
                     <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
                 </div>
             </div>
+        </div>
     </div>
+    <div class="cards-dos-produtos">
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header">Whey 100% MAX Tixtanium</div>
+                    <img src="https://m.media-amazon.com/images/I/61+-qLbs+ZL._AC_UF1000,1000_QL80_.jpg" alt="">
+                    <div class="card-title">
+                        <strong>R$129,90</strong>
+                        <b>19% OFF</b>
+                    </div>
+                    <div class="card-text">
+                        <strong>R$159,99</strong>
+                    </div>
+                    <!--<div class="card-subtitle">subtitle</div>-->
+                    <a href="#"><button class="btn"><b>Comprar</b></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header">Whey 100% MAX Tixtanium</div>
+                    <img src="https://m.media-amazon.com/images/I/61+-qLbs+ZL._AC_UF1000,1000_QL80_.jpg" alt="">
+                    <div class="card-title">
+                        <strong>R$129,90</strong>
+                        <b>19% OFF</b>
+                    </div>
+                    <div class="card-text">
+                        <strong>R$159,99</strong>
+                    </div>
+                    <!--<div class="card-subtitle">subtitle</div>-->
+                    <a href="#"><button class="btn"><b>Comprar</b></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header">Whey 100% MAX Tixtanium</div>
+                    <img src="https://m.media-amazon.com/images/I/61+-qLbs+ZL._AC_UF1000,1000_QL80_.jpg" alt="">
+                    <div class="card-title">
+                        <strong>R$129,90</strong>
+                        <b>19% OFF</b>
+                    </div>
+                    <div class="card-text">
+                        <strong>R$159,99</strong>
+                    </div>
+                    <!--<div class="card-subtitle">subtitle</div>-->
+                    <a href="#"><button class="btn"><b>Comprar</b></button></a>
+                </div>
+            </div>
+        </div>
     </div>
-    
+    <div class="img-grande">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/ff2671c3-1689-49f0-8778-854f1e6b2f97___22d659e53baaa38faa58242c677179dc.webp" alt="">
+    </div>
+    <footer>
+        <div class="Institucional">
+            <h4>institucional</h4>
+            <h6>Perguntas e Respostas (FAQ)</h6>
+            <h6>Politica de Privacidade</h6>
+            <h6>Termos e Condições</h6>
+            <h6>Politica de Frete Grátise</h6>
+            <h6>Troca e devolução</h6>
+            <h6>Blog</h6>
+            <h6>Elite Member - Programa de Fidelidade</h6>
+            <h6>Política de Brindes</h6>
+            <h6>Max Elite Team Experience Mar-24</h6>
+            <h6>Contato para Imprensa</h6>
+        </div>
+    </footer>
+<div class="logos">
+    <div class="logo-cartoes">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/5d8c1b4a-ca4c-4abb-b4ca-a6520d2c111e___38f3e8e4c172dd02c1f3a50f561bd1ae.webp" alt="">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/9655c140-fe42-4214-8e65-b1277e1457d3___aa90a03fd9a8c2035a01085941ce8072.webp" alt="">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/419cf0fd-160b-48f1-a2ca-057413866d43___74d882d686edcd3e221ec1e68ff66a48.webp" alt="">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/3854a1b9-a769-495d-a27f-5d3a5fd01213___945971b3944cd52d89fad6c37ae041d8.webp" alt="">
+    </div>
+    <div class="logos-e-redes-sociais">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/3878a25b-4f48-4ca9-8de7-f05fcb8d4228___3b7a08dfcbe0a1cac7843f92390bd394.webp" alt="">
+        <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/3b52bbe5-a13f-4488-9bd0-f6c85d1b2b7d___31bbdd0a40c49bbcde1857723f2617e6.webp" alt="">
+        <a href="#"><img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/ad72976f-7d80-4f83-b405-d5853bdcc22b___93b8577eb9555a977848fc4c22ed4d2e.webp" alt=""> </a>
+        <a href="#"> <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/16903495-0713-41a7-bb39-2df485136f7a___015e63667baf86e4cd1882f562ef8f16.webp" alt=""></a>
+        <a href="#"> <img src="https://lojamaxtitanium.vtexassets.com/assets/vtex.file-manager-graphql/images/2d185dd4-9825-4b2a-9235-e5b46c851a24___24600640eb05f8798aafa3d6d682749b.webp" alt=""></a>
+    </div>
+</div>
+<div class="texto-final">
+    <p>Supley Lab. de Alimentos e Suplementos Nutricionais Ltda - Endereço: Avenida Jose Pilo, 161 - Matão - SP - CEP: 15991-312 - CNPJ: 07.578.713/0004-29 © Todos os direitos reservados. 2021 Telefones: (16) 3506-2045 / (16) 3506-2046    </p>
+    <p>Eventuais promoções, descontos e prazos de pagamentos expostos aqui sao válidos apenas para compras via internet. As fotos, textos e layout aqui veiculados são de propriedade da Max Titanium. É proibida a utilização total ou parcial sem prévia autorização.    </p>
+</div>
     <script src="./lib.js"></script>
 </body>
+
 </html>
